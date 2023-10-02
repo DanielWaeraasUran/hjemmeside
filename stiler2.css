@@ -1,0 +1,28 @@
+body {
+background-image: url("rullator.jpg");
+
+}
+
+.kyrie { 
+text-align: center;
+font-size: xx-large;
+color:red;
+border-style: outset;
+border-color: yellow;
+border-width: 50%  ;
+border-radius: 50%;
+background-color: black;
+}
+
+a{
+ color:red
+}
+
+a:visited{
+    color:red
+   }
+
+
+a:hover{
+    color:white
+   }

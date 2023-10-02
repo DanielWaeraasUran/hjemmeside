@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(248, 248, 248);
+
+}
+
+a {
+  color:yellow
+}
+
+a:visited {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(248, 244, 29);
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+a:active {
+  color: rgba(255, 0, 0, 0.842);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.helligtittel {
+  font-family:'comic sans MS', cursive ;
+  color:mediumvioletred;
+}
+
+
+.helligskrift {
+  font-family: "Times New Roman", Times, serif;
+  width: 10%;
+  background-size: 30px;
+  background-color: black; 
+  color: red;
+  border-style: double;
+  border-color: lightsalmon;
+}
+
+.oppgave {
+  border-style: solid;
+  border-width: 3px;
+  font-family: "comic sans MS";
+  background-color: aqua;
+  width: 50%;
+  
+
+}
+
+
+.joe {
+  border-style: solid;
+  border-width: 3px;
+  font-family: "comic sans MS";
+  background-color: aqua;
+  width: 19%;
+  
+
+}
+
+
+nav{
+  float: left; /*Gjør at child-elementer som flyter (float), holder seg inne i boksen */
+  width: auto;
+  background-color: violet;  
+  position:sticky; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
+  top: 6px;
+  border: ridge black ;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+ 
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  border-right: 5px solid #490037;
+  border-left: 5px solid #490037;
+}
+
+/*CSS-regelen under gjør at den siste lenka flyter helt til høyre i vinduet i stedet for til venstre ved siden av de andre. Ta bort kommentarmarkørene for å se hvordan det virker.*/
+/*nav li:last-child{
+  float: right;
+  border-right: none;
+  border-left: 1px solid #f06d06;
+}*/
+
+nav a {
+  display: block;
+  text-decoration:none;
+  color: black;
+  padding: 1em;
+  
+}
+
+nav a:hover{
+  background-color: black;
+  color: #dddddd;
+}
+
+nav a:visited{
+color:black
+}
+
+
+article{
+  color:goldenrod;
+  width:50%
+}
+
+
+.table{
+  color: red;
+  border: #490037 solid 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  border-radius: 3%;
+}
+
+
+
